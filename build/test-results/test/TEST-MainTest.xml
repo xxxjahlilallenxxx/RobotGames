@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-04-28T21:47:35" hostname="OWNER" time="0.022">
+<testsuite name="MainTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-04-29T01:57:53" hostname="OWNER" time="0.02">
   <properties/>
-  <testcase name="RunMainTest()" classname="MainTest" time="0.022">
-    <failure message="java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
-	at Board.Board.&lt;init&gt;(Board.java:24)
-	at MainTest.RunMainTest(MainTest.java:18)
+  <testcase name="RunMainTest()" classname="MainTest" time="0.02">
+    <failure message="java.lang.NullPointerException: Cannot invoke &quot;Game.BoardProperties.setLimit(Game.Limit)&quot; because &quot;this.board[flagRow][flagCol]&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;Game.BoardProperties.setLimit(Game.Limit)&quot; because &quot;this.board[flagRow][flagCol]&quot; is null
+	at Game.Board.PlaceFlags(Board.java:15)
+	at MainTest.RunMainTest(MainTest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

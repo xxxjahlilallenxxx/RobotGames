@@ -2,5 +2,6 @@ package Game;
 
 public enum Limit {
     OFF_LIMITS,
-    FREE
+    FREE,
+    FINAL
 }
